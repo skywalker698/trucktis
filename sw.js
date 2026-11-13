@@ -1,6 +1,6 @@
-const V = 'sugarlab-v1';
+const V = 'sugarlab-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './favicon.ico', './apple-touch-icon.png',
-  './icons/icon-32.png', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png'];
+  './icon-192.png', './icon-512.png', './icon-maskable-512.png', './favicon-32.png'];
 const NAV_TIMEOUT = 4000; // สัญญาณอ่อน: รอเครือข่ายไม่เกิน 4 วินาที แล้วใช้แคชแทน
 
 self.addEventListener('install', e => {

@@ -8,10 +8,11 @@
 <meta name="application-name" content="ค่าเคมีน้ำตาล">
 <meta name="format-detection" content="telephone=no">
 <meta name="description" content="ระบบบันทึกผลวิเคราะห์น้ำตาลทรายดิบ — แยกตามสถานที่ปลายทาง">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="manifest" href="manifest.webmanifest?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFKklEQVR4nL2XXWtcxxnHf8/Medk9+yKtnNhy7dYGu0kjB6eJ21LqUgjtTS8CDfS+V/0KvcgHaOnHKPSytBAo+KKUNA0mTtIkxoYYpw2SjV4saSWtds/qnD1n5smFFnlt7VEkCnpgYffMzvx/87ydGWGK6XBRpz3/f02Sy3Lo2WkIHwViTlv8eS2ZfDDyEbl9gSzLEBEUCERo2Ijcl2TeHbjMK6BKrRaR9XeZifvEkT0RiCSXxVQNqnoigbV8wB8WP+CDncfUjMWrIkASCPXQMCpK1ISsbEJRntyJpsr13tSxtkm3yPjz6j3uDdaJMOA9pSp3uyO+7BUERkjTFAlqLG8Jo+L4EDpc1AoPCNHwY8L0NoEonbC+v/soImg2SEv4zXub/P6zHpERRIR0MACJWOlyIoipAIoh2f4LcfdPqDqcKmos+ngJ9/lHkGeEgcWOE8KrokDa74OJWN4U8tHxIKpzwCRgGuMfHuIY9493Kf/4Drq1iQYBqKKqJI0Gzdk2SbuFCszNz7OThftT9WiQoHrIjz8TFoZQq4FMtA9VgjAkjAJG+YiyLHDOIcYCJSKHes8xAcQABhEwdj/OIoIxBkQwxh5w6Lgy4ig6GHfO4b0HMZgjGKpDkKWQpbhSGWzlFLmj2EsZbm/hXUmW9hhlg2e8oYC1lkZSZ6bVxJijxQFksgyfNqIcM/iCAMd2fJW76+t8Z26OC90N8rVl7LXX+c/WiFYoXJ/v4Lwi8jTeSb3G7U8+Zf3JClcunOHH1y+hPNf3jwbIMGECCFZz6kHIyJUUQYAEAWQZiRWcwl450R29Uosj/nbrPW796w6dziw2CPnFjW/z1s+u4VUxz+VEZQ6kO+t451AM3fFEUQVVMIYt3ff+5IIC7IUhn9x7QC0O8cUIX5a8/9lX/PLmKwT2cMQrAaJaHfU63W8VJgDGkNRidvspzntsGFCPgv0QcXi5SoAgOKJCK8x7pZHUuHj+LI9Xn1CLI4zAr3/+GtYYvFfEHDMEg90+rnTf6AFhHBYRytIT2hfGJWuJoojf/uoHvHr1PKqKmVISlQCtmfY3bRgFVCKQAHU59QiMwOPVNRrNBq+/fI5Xr57HecVW1GMlwCgfoeqnD6qitk40fEDSfZdi5kdo+xqLGyH/vHOfpdUec62YN29cwXs/duIJAYqiwDtXMc3jTUC8c5tgcAfp3cVGLWw3JvtvRuI6LK60eLg84NK3zhzM2Yc4Zg602q2DU9HkzsdfkLBOuLKH9gT7YoJKyffmSxbeMuTDTb7s9nj06K+w8DbUL4KZLlXZiPbSPZwbv0zGSUYQAgrOgRj82hr2479Td4vEjU3sXIHMRth6RCSCUYdzAYXtYNtXCObfRKLZ4wGUZbnfB1QhiiDP0a0NCAKk2YKkhahDbYz0+piVJWTpLmb7PtY+onbOUzvXYE8dSWzJU0d07XdI3DleCKIo2hcPQ3RtGf+/B8jZefSLB+hXDzE3foL54U1wOXQS9Oxr8P038LsD7MYa6cOPyO9/jugqvGQxcwuHxI8E6Pd2caMRtNoEH/4bhilmYwMZ9CjeuIn59EP8ixfws2eQshiniCeZadNZ+C57L12kXfyUYukJWXeF2qWXT5YDT/8hkOf492+hO9uYheto6ZBWG7n6CpTlswcUlHazSTbYZiYeVO3v6fJQfS84MGMhjmGYwnAAcR0aTcizQwuqKu12i2ywxUzYHx/bPGIMz5egJJflGYDTtoOLybRL42mIw8SR7DQhJrWmip7m9fxrbWKHDnPhABAAAAAASUVORK5CYII=">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png?v=2">
 <link rel="icon" href="favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
 <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152.png">
 <link rel="apple-touch-icon" sizes="167x167" href="icons/icon-167.png">
 <meta name="mobile-web-app-capable" content="yes">
@@ -109,13 +110,16 @@
   #toast.show { transform:none; }
   #toast span { flex:1; }
   #toast button { min-height:44px; padding:0 18px; border:0; border-radius:12px; background:var(--amber); color:#1f2937; font-weight:700; font-size:16px; cursor:pointer; }
+
+  /* ---------- PC / จอใหญ่: แถบหัวบางลง ---------- */
+  @media (min-width:900px){ #bar{padding-top:calc(5px + var(--sat));padding-bottom:5px} #bar img{width:32px;height:32px} #bar .t b{font-size:15px} .ib{width:38px;height:38px} }
 </style>
 </head>
 <body>
 
 <div id="app">
   <header id="bar">
-    <img src="icons/icon-192.png" alt="">
+    <img src="icon-192.png?v=2" alt="">
     <div class="t">
       <b>ผลวิเคราะห์น้ำตาลทรายดิบ</b>
       <small><i id="dot"></i><span id="status">ออนไลน์</span></small>
@@ -135,7 +139,7 @@
 </div>
 
 <div id="splash">
-  <img src="icons/icon-512.png" alt="ผลวิเคราะห์น้ำตาลทรายดิบ">
+  <img src="icon-512.png?v=2" alt="ผลวิเคราะห์น้ำตาลทรายดิบ">
   <h1>ผลวิเคราะห์น้ำตาลทรายดิบ</h1>
   <p>ระบบบันทึกผลวิเคราะห์น้ำตาลทรายดิบ แยกตามสถานที่ปลายทาง</p>
   <div class="bar"><i></i></div>
@@ -143,14 +147,14 @@
 </div>
 
 <div id="offline" class="msg">
-  <img src="icons/icon-192.png" alt="">
+  <img src="icon-192.png?v=2" alt="">
   <h3>ไม่มีสัญญาณอินเทอร์เน็ต</h3>
   <p>กรุณาตรวจสอบสัญญาณมือถือหรือ Wi-Fi แล้วกดปุ่มด้านล่างเพื่อลองใหม่</p>
   <button class="big" id="btn-retry">ลองใหม่อีกครั้ง</button>
 </div>
 
 <div id="slow" class="msg">
-  <img src="icons/icon-192.png" alt="">
+  <img src="icon-192.png?v=2" alt="">
   <h3>กำลังโหลดช้ากว่าปกติ</h3>
   <p>สัญญาณอาจไม่ค่อยดี กรุณารอสักครู่ หรือกดลองใหม่อีกครั้ง</p>
   <button class="big" id="btn-slow-retry">ลองใหม่อีกครั้ง</button>
@@ -158,7 +162,7 @@
 </div>
 
 <div id="inapp" class="msg">
-  <img src="icons/icon-192.png" alt="">
+  <img src="icon-192.png?v=2" alt="">
   <h3>กรุณาเปิดด้วยเบราว์เซอร์หลัก</h3>
   <p>หน้านี้เปิดอยู่ในแอปอื่น (เช่น LINE/Facebook) จึงติดตั้งแอปไม่ได้ และบางฟังก์ชันอาจใช้งานไม่ครบ</p>
   <ol class="ol">
@@ -170,7 +174,7 @@
 </div>
 
 <div id="loggedout" class="msg">
-  <img src="icons/icon-192.png" alt="">
+  <img src="icon-192.png?v=2" alt="">
   <h3>ออกจากระบบแล้ว</h3>
   <p>ล้างข้อมูลออกจากหน้าจอเรียบร้อยแล้ว</p>
   <p id="closeHint" style="font-size:16px"></p>
@@ -180,7 +184,7 @@
 <div id="scrim"></div>
 <div id="sheet" role="dialog" aria-labelledby="sheet-title">
   <div class="head">
-    <img src="icons/icon-192.png" alt="">
+    <img src="icon-192.png?v=2" alt="">
     <div>
       <h2 id="sheet-title">ติดตั้งแอป ค่าเคมีน้ำตาล</h2>
       <p id="sheet-desc">เปิดได้ทันทีจากหน้าจอหลัก เต็มจอ ใช้งานง่ายเหมือนแอปในมือถือ</p>
